@@ -20,8 +20,8 @@
     },
     "repositories": [
 	{
-	    "type": "vcs",
-	    "url": "git@github.com:/wisnet/behatpom.git"
+	    "type": "git",
+	    "url": "git@github.com:wisnet/behatpom.git"
 	}
     ],    
     "minimum-stability": "dev",
