@@ -18,6 +18,11 @@
     "require-dev": {
 	"wisnet/behatpom": "~0.0.1"
     },
+    "repositories": [
+	{
+	    "type": "vcs",
+	    "url": "https://github.com/wisnet/behatpom" },
+    ],    
     "minimum-stability": "dev",
     "prefer-stable": true,    
     "autoload": {
