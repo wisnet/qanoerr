@@ -21,7 +21,7 @@
     "repositories": [
 	{
 	    "type": "vcs",
-	    "url": "git@github.com:wisnet/behatpom"
+	    "url": "git@bitbucket.org:wisnet/behatpomchromeextension"
 	}
     ],    
     "minimum-stability": "dev",
