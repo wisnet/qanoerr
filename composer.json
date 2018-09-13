@@ -9,11 +9,7 @@
 	    "php": "7.0.27"
 	}
     },
-    "scripts": {
 	"selenium-server": "vendor/bin/selenium-server-standalone  2>&1 | tee .\/selenium-server.log",	
-	"behat-prep": "vendor/bin/preprocessGherkin",    
-	"behat":  "composer behat-prep && vendor/bin/behat --config behat.yml --colors",
-	"behat-cbt": "composer behat-prep && vendor/bin/buildCBTTests"
     },
     "require-dev": {
 	"wisnet/behatpom": "~0.0.1"
@@ -21,7 +17,7 @@
     "repositories": [
 	{
 	    "type": "vcs",
-	    "url": "git@bitbucket.org:wisnet/behatpomchromeextension"
+	    "url": "git@github.com:wisnet/behatpom-temp"
 	}
     ],    
     "minimum-stability": "dev",
