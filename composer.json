@@ -2,6 +2,7 @@
     "name": "wisnet/qanoerr",
     "description": "starter template for QANoErr",
     "type": "project",
+    "license": "MIT",
     "config": {
 	"bin-dir": "vendor/bin",
 	"process-timeout": 0,
@@ -13,7 +14,7 @@
 	"selenium-server": "vendor/bin/selenium-server-standalone  2>&1 | tee .\/selenium-server.log"
     },
     "require-dev": {
-	"wisnet/behatpom": "~0.0.1"
+	"wisnet/behatpom-temp": "~0.0.1"
     },
     "repositories": [
 	{
